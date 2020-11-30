@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import '../styles/Form.css';
 import FormSignup from './FormSignup';
 import FormSuccess from './FormSuccess';
-import whatsapp from '../../images/whatsapp.png'
 
 const Form = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -25,12 +24,7 @@ const Form = () => {
           <div className="whastapp-btn">
           <a href="https://wa.me/51938459420">
           <div className="whatsapp">
-              <div className="content-btn">
-                <div className="img-what">
-                  <img src={whatsapp} alt=""/>
-                </div>
-                Envíame un mensaje
-              </div>
+              <a className="btn-whatsapp" href="https://api.whatsapp.com/send?phone=51950653902&amp;text=Hola%2C%20deseo%20adquirir%20una%20pagina%20web%2C%20quiero%20comenzar%20un%20proyecto%20con%20ustedes" rel="noopener noreferrer" target="_blank"> <i className="fab fa-whatsapp"></i> Envíame un mensaje</a>
             </div>
           </a>
             

@@ -419,12 +419,24 @@ const { t } = useTranslation();
                 </div>
                 <div className="project_img">
                   <ul className="list-titl">
-                    <li>Auditoría del sitio web</li>
-                    <li>Diseño</li>
-                    <li>Desarrollo</li>
+                  <p className="price-web">
+                      S/ 750<br></br>
+                     <span>único pago</span> 
+                    </p>
+                    <li>Hosting</li>
+                    <li>Dominio.com</li>
+                    <li>1 año de soporte</li>
+                    <li>Hasta 6 pestañas</li>
+                    <li>Galeria de imagenes</li>
+                    <li>Formulario de contacto</li>
+                    <li>Integración Whatsapp</li>
+                    <li>Certificado de seguridad SSL</li>
+                    <li>Enlace a tus redes sociales</li>
+                    <li>Adaptable a dispositivos moviles</li>
                   </ul>
                 </div>
                 <div className="project_button">
+                <a className="btn-whatsapp" href="https://api.whatsapp.com/send?phone=51950653902&amp;text=Hola%2C%20deseo%20adquirir%20una%20pagina%20web%20b%C3%A1sico" rel="noopener noreferrer" target="_blank"> <i className="fab fa-whatsapp"></i> Solicitarlo</a>
                   <Link to='contact'
               smooth={true}
               duration={1000}
@@ -432,10 +444,8 @@ const { t } = useTranslation();
               name="package" 
               value="basico" 
               onChange={handleChange}>
-                
-                  <div className="btn-home">
-                  Solicitud de cotización
-                    </div>
+                <div className="btn-home"> 
+                  <i class="far fa-envelope"></i>  Solicitarlo</div>
                   </Link>
                   
                 </div>
@@ -448,24 +458,36 @@ const { t } = useTranslation();
                 </div>
                 <div className="project_img">
                   <ul className="list-titl">
-                    <li>Auditoría del sitio web</li>
-                    <li>Diseño</li>
-                    <li>Desarrollo</li>
-                    <li>Copias de seguridad</li>
-                    <li>Analítica</li>
-                    <li>Chat en vivo</li>
-                    <li>Optimización de motores de búsqueda</li>
-                    <li>Gestion de contenido</li>
+                  <p className="price-web">
+                      S/ 1350<br></br>
+                     <span>único pago</span> 
+                    </p>
+                    <li>Hosting</li>
+                    <li>Dominio.com</li>
+                    <li>1 año de soporte</li>
+                    <li>Hasta 10 pestañas</li>
+                    <li>Galeria de imagenes</li>
+                    <li>Correos Corporativos</li>
+                    <li>Integración Whatsapp</li>
+                    <li>Formulario de contacto</li>
+                    <li>Certificado de seguridad SSL</li>
+                    <li>Enlace a tus redes sociales</li>
+                    <li>Adaptable a dispositivos moviles</li>
+                    <li>Administrable</li>
+                    <li>Mapa de sitio</li>
+                    <li>Google Analytics</li>
+                    <li>WhatsApp Business</li>
+                    <li>Exclusivo *<b>App para Android</b>*</li>
                   </ul>
                 </div>
                 <div className="project_button">
+                <a className="btn-whatsapp" href="https://api.whatsapp.com/send?phone=51950653902&amp;text=Hola%2C%20deseo%20adquirir%20una%20pagina%20web%20standard" rel="noopener noreferrer"  target="_blank"> <i className="fab fa-whatsapp"></i> Solicitarlo</a>
                 <Link to='contact'
               smooth={true}
               duration={1000}
               className="link-scroll">
-                  <div className="btn-home">
-                  Solicitud de cotización
-                    </div>
+                  <div className="btn-home"> 
+                  <i class="far fa-envelope"></i>  Solicitarlo</div>
                   </Link>
                   
                 </div>
@@ -479,28 +501,38 @@ const { t } = useTranslation();
                 </div>
                 <div className="project_img">
                   <ul className="list-titl">
-                  <li>Auditoría del sitio web</li>
-                    <li>Diseño</li>
-                    <li>Desarrollo</li>
-                    <li>Copias de seguridad</li>
-                    <li>Analítica</li>
-                    <li>Chat en vivo</li>
-                    <li>Optimización de motores de búsqueda</li>
-                    <li>Gestion de contenido</li>
-                    <li>mantenimiento</li>
-                    <li>Ecommerce</li>
-                    <li>configuración de correo electrónico</li>
+                    <p className="price-web">
+                      S/ 1800<br></br>
+                     <span>único pago</span> 
+                    </p>
                     <li>Hosting</li>
+                    <li>Dominio.com</li>
+                    <li>1 año de soporte</li>
+                    <li>Hasta 15 pestañas</li>
+                    <li>Galeria de imagenes</li>
+                    <li>Correos Corporativos</li>
+                    <li>Integración Whatsapp</li>
+                    <li>Formulario de contacto</li>
+                    <li>Certificado de seguridad SSL</li>
+                    <li>Enlace a tus redes sociales</li>
+                    <li>Adaptable a dispositivos moviles</li>
+                    <li>100% Administrable</li>
+                    <li>SEO Básico</li>
+                    <li>Mapa de sitio</li>
+                    <li>Google Analytics</li>
+                    <li>Google My Business</li>
+                    <li>WhatsApp Business</li>
+                    <li>Exclusivo *<b>App para Android</b>*</li>
                   </ul>
                 </div>
                 <div className="project_button">
+                  <a className="btn-whatsapp" href="https://api.whatsapp.com/send?phone=51950653902&amp;text=Hola%2C%20deseo%20adquirir%20una%20pagina%20web%20premium" rel="noopener noreferrer" target="_blank"> <i className="fab fa-whatsapp"></i> Solicitarlo</a>
                 <Link to='contact'
               smooth={true}
               duration={1000}
               className="link-scroll">
-                  <div className="btn-home">
-                  Solicitud de cotización
-                    </div>
+                  <div className="btn-home"> 
+                  <i class="far fa-envelope"></i>  Solicitarlo</div>
                   </Link>
                   
                 </div>

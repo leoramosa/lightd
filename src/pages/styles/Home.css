@@ -206,7 +206,7 @@ h1{
 }
 
 .btn-home{
-  color: black;
+  color:#3134e5;
   display: inline-block;
   padding: 8px 38px;
   font-size: 19px;
@@ -214,6 +214,24 @@ h1{
   border: 2px solid #3134e5;
   font-weight: 500;
   transition: 0.5s;
+}
+
+.btn-whatsapp{
+  color: #14b44f;
+  display: inline-block;
+  padding: 8px 38px;
+  font-size: 19px;
+  border-radius: 21px;
+  border: 2px solid #14b44f;
+  font-weight: 500;
+  transition: 0.5s;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+.btn-whatsapp:hover{
+  color: white;
+  background-color:#14b44f;
 }
 
 .btn-home:hover{
@@ -388,6 +406,20 @@ h1{
 .link-scroll{
   cursor: pointer;
 }
+.price-web{
+  font-size: 38px;
+  font-weight: 800;
+  color: #1d67d6;
+  padding: 13px 0 18px;
+}
+
+.price-web span{
+  font-size: 18px;
+  font-weight: 200;
+  padding-bottom: 11px;
+  border-bottom: 2px solid #3347ca;
+}
+
 
 @media screen and (min-width: 1216px){
   .skills .box .content .columns .column {
