@@ -6,6 +6,7 @@ import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
 import FormHome from './../components/forms/Form'
+import MessengerCustomerChat from 'react-messenger-customer-chat'
 import { Link } from 'react-scroll'
 import SwiperCore, {
   Navigation,
@@ -551,7 +552,11 @@ const { t } = useTranslation();
         </div>
         </div>
       </section>
-     
+      <MessengerCustomerChat
+    pageId="107560224492216"
+    appId="244223454045463"
+    /* htmlRef="<REF_STRING>" */
+  />
       </React.Fragment>
   );
 }
